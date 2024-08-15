@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.room, .amenity {
+    margin-bottom: 20px;
+}
+
+.room img, .amenity img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.btn {
+    background: #555;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-bottom: 5px;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+#contactP{
+    text-align: center;
+}
+
+#contactH3{
+    text-align: center;
+}
+
+#oops{
+    text-align: center;
+}
+
+#amenitiesH3{
+    text-align: center;
+}
+
+#amenitiesP{
+    text-align: center;
+}
+
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Full viewport height, adjust as needed */
+    text-align: center;
+}
+
+.booking-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b; /* Bright red color */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.booking-btn:hover {
+    background-color: #ff4c4c; /* Slightly darker red on hover */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.room-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.room-list li {
+    margin: 10px 0;
+}
+
+.room-list a {
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.room-list a:hover {
+    background-color: #ddd;
+}
+
+.room-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.room-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.room-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.room-detail p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.back-button {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 10vh; /* Full viewport height, adjust as needed */
+    text-align: center;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6b6b; /* Bright red color */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.back-btn:hover {
+    background-color: #ff4c4c; /* Slightly darker red on hover */
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+#roomtype{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
